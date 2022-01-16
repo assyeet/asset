@@ -1,0 +1,175 @@
+body {
+    
+    margin: 0;
+    
+    background: url("img/b%20(1).jpg");
+    
+    font-family: Arial;
+    line-height: 1.5;
+    font-size: 18px;
+    color: black;
+    
+}
+
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+
+.menu.b {
+    color: black;
+    text-decoration: none;
+}
+
+
+.head{
+    margin: 0;
+    width: 100%;
+    background-color: gray;
+    font-size:20px;
+
+        
+}
+
+.header_menu {
+    justify-content: space-between;
+    max-width: 1100px;
+    padding: 40px  0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.header_menu_link {
+    text-decoration: none;
+    padding-left: 40px;
+    color: black;
+    font-size: 20px;
+}
+
+
+.photo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: auto;
+        
+}
+
+.card {
+    width: 650px;
+    margin:  40px auto;
+    padding: 100px;
+    
+    background-color: #fff;
+    box-shadow: 0 5px 10px #ccc;
+    border-radius: 10px;
+    
+}
+
+.card-photo {
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.card-title {
+    font-size: 34px;
+    text-align: center;
+    color: #000;
+    
+}
+
+.card-text {
+    font-size: 22px;
+    text-align: center;
+}
+
+.card-2 {
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+.card-3 {
+    font-size: 22px;
+}
+
+.card-4 {
+    font-size: 22px;
+}
+
+
+.border {
+  padding: 0 30%;
+}
+
+.shop_btn_link {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.shop_btn {
+  background: gray;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 15px;
+  border-radius: 35px;
+  display: flex;
+  text-transform: uppercase;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px
+
+}
+
+.shop_btn:hover {
+  opacity: 1;
+  background: black;
+}
+
+
+
+
+footer {
+  padding-top: 70px;
+  background: gray;
+  font-family: 'Raleway';
+}
+
+.footer_inside {
+  margin-left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer_item {
+  color: black;
+  width: 31%;
+}
+
+.italic {
+  font-family: 'Arial';
+  font-style: italic;
+}
+
+.sp {
+    font-size: 22px;
+    text-align: center;
+}
+
+.madeby {
+  margin-left: 100px;
+  margin-top: 50px;
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-style: italic;
+}
+
